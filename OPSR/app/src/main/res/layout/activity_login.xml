@@ -26,7 +26,7 @@
         android:drawableLeft="@android:drawable/sym_action_email"
         android:drawablePadding="5sp"
         android:ems="10"
-        android:hint="Địa chỉ Email của bạn"
+        android:hint="@string/your_email"
         android:inputType="textEmailAddress"
         android:paddingStart="15sp"
         android:paddingTop="10sp"
@@ -48,7 +48,7 @@
         android:drawableLeft="@android:drawable/ic_lock_idle_lock"
         android:drawablePadding="5sp"
         android:ems="10"
-        android:hint="Mật khẩu của bạn"
+        android:hint="@string/your_password"
         android:inputType="textPassword"
         android:paddingStart="15sp"
         android:paddingTop="10sp"
@@ -67,7 +67,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginEnd="30sp"
         android:background="@drawable/rounded_button"
-        android:text="Đăng nhập"
+        android:text="@string/login"
         android:textColor="@android:color/white" />
 
     <Button
@@ -78,35 +78,60 @@
         android:layout_marginTop="20sp"
         android:layout_marginEnd="30sp"
         android:background="@drawable/rouned_button_facebook"
-        android:text="Đăng nhập bằng Facebook"
+        android:text="@string/login_by_facebook"
         android:textColor="@android:color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="30sp"
         android:layout_marginTop="30sp"
         android:layout_marginEnd="30sp"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/btnRegister"
+            android:id="@+id/txtRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingEnd="10sp"
-            android:text="Đăng ký"
+            android:text="@string/sign_up"
             android:textAlignment="textEnd"
             android:textColor="@android:color/white" />
 
         <TextView
-            android:id="@+id/btnForgetPass"
+            android:id="@+id/txtForgetPass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingStart="10sp"
-            android:text="Quên mật khẩu?"
+            android:text="@string/forgot_password"
             android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgVietnamFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="changeToVietnamese"
+            app:srcCompat="@drawable/iconfinder_280_vietnam_2634458" />
+
+        <ImageView
+            android:id="@+id/imgUKFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="changeToEnglish"
+            app:srcCompat="@drawable/iconfinder_273_kingdom_2634450" />
     </LinearLayout>
 
 </LinearLayout>
