@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="array_dot_active">
+        <item>#d1395c</item>
+        <item>#14a895</item>
+        <item>#2278d4</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>#f98da5</item>
+        <item>#8cf9eb</item>
+        <item>#93c6fd</item>
+    </array>
+</resources>
