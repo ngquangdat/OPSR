@@ -6,4 +6,13 @@
     <string name="login_by_facebook">Login by Facebook</string>
     <string name="sign_up">Sign up</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="layout1_title">The restaurant system has passed the verification</string>
+    <string name="layout1_content"> Customers can conveniently search for restaurant information quickly ...</string>
+    <string name="layout2_title">Order Online !</string>
+    <string name="layout2_content">Ordering has never been so fast and convenient ... </string>
+    <string name="layout3_title">Convenient payment !</string>
+    <string name="layout3_content"> Make the payment quickly and safely ... </string>
 </resources>

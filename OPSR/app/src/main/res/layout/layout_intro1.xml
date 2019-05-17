@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Hệ thống nhà hàng đã qua thẩm định"
+            android:text="@string/layout1_title"
             android:textColor="@android:color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -36,7 +36,7 @@
             android:layout_marginTop="18dp"
             android:paddingLeft="40dp"
             android:paddingRight="40dp"
-            android:text="Khách hàng có thể thực hiện việc tìm kiếm thông tin nhà hàng một cách tiện lợi nhanh chóng..."
+            android:text="@string/layout1_content"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="18dp" />

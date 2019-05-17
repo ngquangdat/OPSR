@@ -2,23 +2,18 @@ package com.capstone.opsr.introslider;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.capstone.opsr.R;
 import com.capstone.opsr.authentication.LoginActivity;
@@ -129,7 +124,7 @@ public class IntroSlider extends AppCompatActivity {
         public void onPageSelected(int i) {
             addBottomDots(i);
             if( i == layouts.length -1){
-                btnNext.setText("Hoàn Tất");
+                btnNext.setText(getString(R.string.next));
                 btnSkip.setVisibility(View.GONE);
             }else {
                 btnNext.setText("Tiếp Tục");

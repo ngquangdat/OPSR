@@ -7,4 +7,13 @@
     <string name="login_by_facebook">Đăng nhập bằng Facebook</string>
     <string name="sign_up">Đăng ký</string>
     <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="skip">Bỏ Qua</string>
+    <string name="next">Tiếp Tục</string>
+    <string name="done">Hoàn Tất</string>
+    <string name="layout1_title">Hệ thống nhà hàng đã qua thẩm định</string>
+    <string name="layout1_content">Khách hàng có thể thực hiện việc tìm kiếm thông tin nhà hàng một cách tiện lợi nhanh chóng...</string>
+    <string name="layout2_title">Gọi món online !</string>
+    <string name="layout2_content">Việc gọi món chưa bao giờ nhanh và tiện lợi đến vậy ...</string>
+    <string name="layout3_title">Thanh toán liền tay !</string>
+    <string name="layout3_content">Thực hiện việc thanh toán một cách nhanh chóng mà an toàn...</string>
 </resources>

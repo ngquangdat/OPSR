@@ -25,8 +25,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thanh toán liền tay !"
             android:layout_marginTop="25dp"
+            android:text="@string/layout3_title"
             android:textColor="@android:color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -37,7 +37,7 @@
             android:layout_marginTop="18dp"
             android:paddingLeft="40dp"
             android:paddingRight="40dp"
-            android:text="Thực hiện việc thanh toán một cách nhanh chóng mà an toàn..."
+            android:text="@string/layout3_content"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="18dp" />
