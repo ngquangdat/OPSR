@@ -21,8 +21,8 @@ public class DatabaseConfigHandler extends SQLiteOpenHelper {
                 ")";
         db.execSQL(sql);
         ContentValues values = new ContentValues();
-        values.put("language", "vi");
-        values.put("country", "VN");
+        values.put("language", "");
+        values.put("country", "");
         db.insert("config",null, values);
     }
 

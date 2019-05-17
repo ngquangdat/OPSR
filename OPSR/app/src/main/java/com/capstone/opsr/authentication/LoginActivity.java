@@ -32,7 +32,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         Config config = getConfig();
-        changeLanguage(new Locale(config.getLanguage(),config.getCountry()));
+        if(!config.getCountry().equals("")){
+            changeLanguage(new Locale(config.getLanguage(),config.getCountry()));
+        }
         setContentView(R.layout.activity_login);
     }
 
