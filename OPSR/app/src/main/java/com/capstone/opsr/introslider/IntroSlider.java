@@ -124,10 +124,10 @@ public class IntroSlider extends AppCompatActivity {
         public void onPageSelected(int i) {
             addBottomDots(i);
             if( i == layouts.length -1){
-                btnNext.setText(getString(R.string.next));
+                btnNext.setText(getString(R.string.done));
                 btnSkip.setVisibility(View.GONE);
             }else {
-                btnNext.setText("Tiếp Tục");
+                btnNext.setText(getString(R.string.next));
                 btnSkip.setVisibility(View.VISIBLE);
             }
         }
