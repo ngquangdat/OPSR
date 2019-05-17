@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OPSR</string>
+    <string name="your_email">Địa chỉ Email của bạn</string>
+    <string name="your_password">Mật khẩu của bạn</string>
+    <string name="login">Đăng nhập</string>
+    <string name="login_by_facebook">Đăng nhập bằng Facebook</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+</resources>

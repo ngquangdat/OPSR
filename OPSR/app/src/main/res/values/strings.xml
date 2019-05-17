@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">OPSR</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Your password</string>
+    <string name="login">Login</string>
+    <string name="login_by_facebook">Login by Facebook</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot password?</string>
 </resources>
